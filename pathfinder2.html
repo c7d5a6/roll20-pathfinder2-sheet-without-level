@@ -17,11 +17,11 @@
         <h1 data-i18n="character_sheet">character sheet</h1>
         <div class="character-prof">
             <h2 data-i18n="proficiency">proficiency</h2>
-            <span data-i18n="untrained_0">untrained +0</span>
-            <span data-i18n="trained_2_level">trained 2+level</span>
-            <span data-i18n="expert_4_level">expert 4+level</span>
-            <span data-i18n="master_6_level">master 6+level</span>
-            <span data-i18n="legendary_8_level">legendary 8+level</span>
+            <span data-i18n="untrained_-2">untrained -2</span>
+            <span data-i18n="trained_2">trained 2</span>
+            <span data-i18n="expert_4">expert 4</span>
+            <span data-i18n="master_6">master 6</span>
+            <span data-i18n="legendary_8">legendary 8</span>
         </div>
         <div class="character-action">
             <ul>
@@ -1355,7 +1355,7 @@
         <label class='sublabel' data-i18n-title='class_dc_rank_select' title='class dc rank select'>
             <span class='sublabel darkred' data-i18n='rank'>rank</span>
             <select name='attr_class_dc_rank' title='@{class_dc_rank}'>
-                <option data-i18n='untrained' value='0' selected>-</option>
+                <option data-i18n='untrained' value='-2' selected>-</option>
                 <option data-i18n='trained' value='2'>trained</option>
                 <option data-i18n='expert' value='4'>expert</option>
                 <option data-i18n='master' value='6'>master</option>
@@ -1463,7 +1463,7 @@
                 <label data-i18n-title='melee_weapon_strike_rank' title='melee weapon strike rank'>
                     <span class='sublabel darkred' data-i18n='rank'>rank</span>
                     <select name='attr_weapon_rank' title='@{weapon_rank}'>
-                        <option data-i18n='untrained' value='0' selected>untrained</option>
+                        <option data-i18n='untrained' value='-2' selected>untrained</option>
                         <option data-i18n='trained' value='2'>trained</option>
                         <option data-i18n='expert' value='4'>expert</option>
                         <option data-i18n='master' value='6'>master</option>
@@ -1623,7 +1623,7 @@
                 <label data-i18n-title='range_weapon_strike_rank' title='range weapon strike rank'>
                     <span class='sublabel darkred' data-i18n='rank'>rank</span>
                     <select name='attr_weapon_rank' title='@{weapon_rank}'>
-                        <option data-i18n='untrained' value='0' selected>untrained</option>
+                        <option data-i18n='untrained' value='-2' selected>untrained</option>
                         <option data-i18n='trained' value='2'>trained</option>
                         <option data-i18n='expert' value='4'>expert</option>
                         <option data-i18n='master' value='6'>master</option>
@@ -1725,7 +1725,7 @@
         <h2 data-i18n='simple'>simple</h2>
         <label data-i18n-title='simple_weapon_proficiencies_rank' title='simple weapon proficiencies rank'>
             <select name='attr_weapon_proficiencies_simple_rank' title='@{weapon_proficiencies_simple_rank}'>
-                <option data-i18n='untrained' value='0' selected>untrained</option>
+                <option data-i18n='untrained' value='-2' selected>untrained</option>
                 <option data-i18n='trained' value='2'>trained</option>
                 <option data-i18n='expert' value='4'>expert</option>
                 <option data-i18n='master' value='6'>master</option>
@@ -1735,7 +1735,7 @@
         <h2 data-i18n='martial'>martial</h2>
         <label data-i18n-title='martial_weapon_proficiencies_rank' title='martial weapon proficiencies rank'>
             <select name='attr_weapon_proficiencies_martial_rank' title='@{weapon_proficiencies_martial_rank}'>
-                <option data-i18n='untrained' value='0' selected>untrained</option>
+                <option data-i18n='untrained' value='-2' selected>untrained</option>
                 <option data-i18n='trained' value='2'>trained</option>
                 <option data-i18n='expert' value='4'>expert</option>
                 <option data-i18n='master' value='6'>master</option>
@@ -1752,7 +1752,7 @@
             </label>
             <label data-i18n-title='other_weapon_proficiencies_rank' title='other weapon proficiencies rank'>
                 <select name='attr_weapon_proficiencies_other_rank' title='@{weapon_proficiencies_other_rank}'>
-                    <option data-i18n='untrained' value='0' selected>untrained</option>
+                    <option data-i18n='untrained' value='-2' selected>untrained</option>
                     <option data-i18n='trained' value='2'>trained</option>
                     <option data-i18n='expert' value='4'>expert</option>
                     <option data-i18n='master' value='6'>master</option>
@@ -1839,7 +1839,7 @@
         <label class='sublabel' data-i18n-title='armor_class_rank_select' title='armor class rank select'>
             <span class='sublabel darkred' data-i18n='rank'>rank</span>
             <select name='attr_armor_class_dc_rank' title='@{armor_class_dc_rank}'>
-                <option data-i18n='untrained' value='0' selected>untrained</option>
+                <option data-i18n='untrained' value='-2' selected>untrained</option>
                 <option data-i18n='trained' value='2'>trained</option>
                 <option data-i18n='expert' value='4'>expert</option>
                 <option data-i18n='master' value='6'>master</option>
@@ -1860,7 +1860,7 @@
                 <h2 data-i18n='unarmored'>unarmored</h2>
                 <label data-i18n-title='unarmed_rank_select' title='unarmored rank select'>
                     <select name='attr_armor_class_unarmored_rank' title='@{armor_class_unarmored_rank}'>
-                        <option data-i18n='untrained' value='0' selected>untrained</option>
+                        <option data-i18n='untrained' value='-2' selected>untrained</option>
                         <option data-i18n='trained' value='2'>trained</option>
                         <option data-i18n='expert' value='4'>expert</option>
                         <option data-i18n='master' value='6'>master</option>
@@ -1872,7 +1872,7 @@
                 <h2 data-i18n='light'>light</h2>
                 <label data-i18n-title='light_armor_rank_select' title='light armor rank select'>
                     <select name='attr_armor_class_light_rank' title='@{armor_class_light_rank}'>
-                        <option data-i18n='untrained' value='0' selected>untrained</option>
+                        <option data-i18n='untrained' value='-2' selected>untrained</option>
                         <option data-i18n='trained' value='2'>trained</option>
                         <option data-i18n='expert' value='4'>expert</option>
                         <option data-i18n='master' value='6'>master</option>
@@ -1884,7 +1884,7 @@
                 <h2 data-i18n='medium'>medium</h2>
                 <label data-i18n-title='medium_armor_rank_select' title='medium armor rank select'>
                     <select name='attr_armor_class_medium_rank' title='@{armor_class_medium_rank}'>
-                        <option data-i18n='untrained' value='0' selected>untrained</option>
+                        <option data-i18n='untrained' value='-2' selected>untrained</option>
                         <option data-i18n='trained' value='2'>trained</option>
                         <option data-i18n='expert' value='4'>expert</option>
                         <option data-i18n='master' value='6'>master</option>
@@ -1896,7 +1896,7 @@
                 <h2 data-i18n='heavy'>heavy</h2>
                 <label data-i18n-title='heavy_armor_rank_select' title='heavy armor rank select'>
                     <select name='attr_armor_class_heavy_rank' title='@{armor_class_heavy_rank}'>
-                        <option data-i18n='untrained' value='0' selected>untrained</option>
+                        <option data-i18n='untrained' value='-2' selected>untrained</option>
                         <option data-i18n='trained' value='2'>trained</option>
                         <option data-i18n='expert' value='4'>expert</option>
                         <option data-i18n='master' value='6'>master</option>
@@ -2031,7 +2031,7 @@
         <label class='sublabel' data-i18n-title='fortitude_saving_throw_rank_select' title='fortitude saving throw rank select'>
             <span class='sublabel darkred' data-i18n='rank'>rank</span>
             <select name='attr_saving_throws_fortitude_rank' title='@{saving_throws_fortitude_rank}'>
-                <option data-i18n='untrained' value='0' selected>untrained</option>
+                <option data-i18n='untrained' value='-2' selected>untrained</option>
                 <option data-i18n='trained' value='2'>trained</option>
                 <option data-i18n='expert' value='4'>expert</option>
                 <option data-i18n='master' value='6'>master</option>
@@ -2068,7 +2068,7 @@
         <label class='sublabel' data-i18n-title='reflex_saving_throw_rank_select' title='reflex saving throw rank select'>
             <span class='sublabel darkred' data-i18n='rank'>rank</span>
             <select name='attr_saving_throws_reflex_rank' title='@{saving_throws_reflex_rank}'>
-                <option data-i18n='untrained' value='0' selected>untrained</option>
+                <option data-i18n='untrained' value='-2' selected>untrained</option>
                 <option data-i18n='trained' value='2'>trained</option>
                 <option data-i18n='expert' value='4'>expert</option>
                 <option data-i18n='master' value='6'>master</option>
@@ -2105,7 +2105,7 @@
         <label class='sublabel' data-i18n-title='will_saving_throw_rank_select' title='will saving throw rank select'>
             <span class='sublabel darkred' data-i18n='rank'>rank</span>
             <select name='attr_saving_throws_will_rank' title='@{saving_throws_will_rank}'>
-                <option data-i18n='untrained' value='0' selected>untrained</option>
+                <option data-i18n='untrained' value='-2' selected>untrained</option>
                 <option data-i18n='trained' value='2'>trained</option>
                 <option data-i18n='expert' value='4'>expert</option>
                 <option data-i18n='master' value='6'>master</option>
@@ -2158,7 +2158,7 @@
             </div>
             <label data-i18n-title="acrobatics_rank_select" title="acrobatics rank select"><span class="sublabel darkred" data-i18n="rank">rank</span>
               <select name="attr_acrobatics_rank" title="@{acrobatics_rank}">
-                <option data-i18n="untrained" value="0" selected="">untrained</option>
+                <option data-i18n='untrained' value='-2' selected="">untrained</option>
                 <option data-i18n="trained" value="2">trained</option>
                 <option data-i18n="expert" value="4">expert</option>
                 <option data-i18n="master" value="6">master</option>
@@ -2204,7 +2204,7 @@
             </div>
             <label data-i18n-title="arcana_rank_select" title="arcana rank select"><span class="sublabel darkred" data-i18n="rank">rank</span>
               <select name="attr_arcana_rank" title="@{arcana_rank}">
-                <option data-i18n="untrained" value="0" selected="">untrained</option>
+                <option data-i18n='untrained' value='-2' selected="">untrained</option>
                 <option data-i18n="trained" value="2">trained</option>
                 <option data-i18n="expert" value="4">expert</option>
                 <option data-i18n="master" value="6">master</option>
@@ -2248,7 +2248,7 @@
             </div>
             <label data-i18n-title="athletics_rank_select" title="athletics rank select"><span class="sublabel darkred" data-i18n="rank">rank</span>
               <select name="attr_athletics_rank" title="@{athletics_rank}">
-                <option data-i18n="untrained" value="0" selected="">untrained</option>
+                <option data-i18n='untrained' value='-2' selected="">untrained</option>
                 <option data-i18n="trained" value="2">trained</option>
                 <option data-i18n="expert" value="4">expert</option>
                 <option data-i18n="master" value="6">master</option>
@@ -2294,7 +2294,7 @@
             </div>
             <label data-i18n-title="crafting_rank_select" title="crafting rank select"><span class="sublabel darkred" data-i18n="rank">rank</span>
               <select name="attr_crafting_rank" title="@{crafting_rank}">
-                <option data-i18n="untrained" value="0" selected="">untrained</option>
+                <option data-i18n='untrained' value='-2' selected="">untrained</option>
                 <option data-i18n="trained" value="2">trained</option>
                 <option data-i18n="expert" value="4">expert</option>
                 <option data-i18n="master" value="6">master</option>
@@ -2337,7 +2337,7 @@
             </div>
             <label data-i18n-title="deception_rank_select" title="deception rank select"><span class="sublabel darkred" data-i18n="rank">rank</span>
               <select name="attr_deception_rank" title="@{deception_rank}">
-                <option data-i18n="untrained" value="0" selected="">untrained</option>
+                <option data-i18n='untrained' value='-2' selected="">untrained</option>
                 <option data-i18n="trained" value="2">trained</option>
                 <option data-i18n="expert" value="4">expert</option>
                 <option data-i18n="master" value="6">master</option>
@@ -2380,7 +2380,7 @@
             </div>
             <label data-i18n-title="diplomacy_rank_select" title="diplomacy rank select"><span class="sublabel darkred" data-i18n="rank">rank</span>
               <select name="attr_diplomacy_rank" title="@{diplomacy_rank}">
-                <option data-i18n="untrained" value="0" selected="">untrained</option>
+                <option data-i18n='untrained' value='-2' selected="">untrained</option>
                 <option data-i18n="trained" value="2">trained</option>
                 <option data-i18n="expert" value="4">expert</option>
                 <option data-i18n="master" value="6">master</option>
@@ -2423,7 +2423,7 @@
             </div>
             <label data-i18n-title="intimidation_rank_select" title="intimidation rank select"><span class="sublabel darkred" data-i18n="rank">rank</span>
               <select name="attr_intimidation_rank" title="@{intimidation_rank}">
-                <option data-i18n="untrained" value="0" selected="">untrained</option>
+                <option data-i18n='untrained' value='-2' selected="">untrained</option>
                 <option data-i18n="trained" value="2">trained</option>
                 <option data-i18n="expert" value="4">expert</option>
                 <option data-i18n="master" value="6">master</option>
@@ -2466,7 +2466,7 @@
             </div>
             <label data-i18n-title="medicine_rank_select" title="medicine rank select"><span class="sublabel darkred" data-i18n="rank">rank</span>
               <select name="attr_medicine_rank" title="@{medicine_rank}">
-                <option data-i18n="untrained" value="0" selected="">untrained</option>
+                <option data-i18n='untrained' value='-2' selected="">untrained</option>
                 <option data-i18n="trained" value="2">trained</option>
                 <option data-i18n="expert" value="4">expert</option>
                 <option data-i18n="master" value="6">master</option>
@@ -2509,7 +2509,7 @@
             </div>
             <label data-i18n-title="nature_rank_select" title="nature rank select"><span class="sublabel darkred" data-i18n="rank">rank</span>
               <select name="attr_nature_rank" title="@{nature_rank}">
-                <option data-i18n="untrained" value="0" selected="">untrained</option>
+                <option data-i18n='untrained' value='-2' selected="">untrained</option>
                 <option data-i18n="trained" value="2">trained</option>
                 <option data-i18n="expert" value="4">expert</option>
                 <option data-i18n="master" value="6">master</option>
@@ -2552,7 +2552,7 @@
             </div>
             <label data-i18n-title="occultism_rank_select" title="occultism rank select"><span class="sublabel darkred" data-i18n="rank">rank</span>
               <select name="attr_occultism_rank" title="@{occultism_rank}">
-                <option data-i18n="untrained" value="0" selected="">untrained</option>
+                <option data-i18n='untrained' value='-2' selected="">untrained</option>
                 <option data-i18n="trained" value="2">trained</option>
                 <option data-i18n="expert" value="4">expert</option>
                 <option data-i18n="master" value="6">master</option>
@@ -2595,7 +2595,7 @@
             </div>
             <label data-i18n-title="performance_rank_select" title="performance rank select"><span class="sublabel darkred" data-i18n="rank">rank</span>
               <select name="attr_performance_rank" title="@{performance_rank}">
-                <option data-i18n="untrained" value="0" selected="">untrained</option>
+                <option data-i18n='untrained' value='-2' selected="">untrained</option>
                 <option data-i18n="trained" value="2">trained</option>
                 <option data-i18n="expert" value="4">expert</option>
                 <option data-i18n="master" value="6">master</option>
@@ -2638,7 +2638,7 @@
             </div>
             <label data-i18n-title="religion_rank_select" title="religion rank select"><span class="sublabel darkred" data-i18n="rank">rank</span>
               <select name="attr_religion_rank" title="@{religion_rank}">
-                <option data-i18n="untrained" value="0" selected="">untrained</option>
+                <option data-i18n='untrained' value='-2' selected="">untrained</option>
                 <option data-i18n="trained" value="2">trained</option>
                 <option data-i18n="expert" value="4">expert</option>
                 <option data-i18n="master" value="6">master</option>
@@ -2681,7 +2681,7 @@
             </div>
             <label data-i18n-title="society_rank_select" title="society rank select"><span class="sublabel darkred" data-i18n="rank">rank</span>
               <select name="attr_society_rank" title="@{society_rank}">
-                <option data-i18n="untrained" value="0" selected="">untrained</option>
+                <option data-i18n='untrained' value='-2' selected="">untrained</option>
                 <option data-i18n="trained" value="2">trained</option>
                 <option data-i18n="expert" value="4">expert</option>
                 <option data-i18n="master" value="6">master</option>
@@ -2725,7 +2725,7 @@
             </div>
             <label data-i18n-title="stealth_rank_select" title="stealth rank select"><span class="sublabel darkred" data-i18n="rank">rank</span>
               <select name="attr_stealth_rank" title="@{stealth_rank}">
-                <option data-i18n="untrained" value="0" selected="">untrained</option>
+                <option data-i18n='untrained' value='-2' selected="">untrained</option>
                 <option data-i18n="trained" value="2">trained</option>
                 <option data-i18n="expert" value="4">expert</option>
                 <option data-i18n="master" value="6">master</option>
@@ -2771,7 +2771,7 @@
             </div>
             <label data-i18n-title="survival_rank_select" title="survival rank select"><span class="sublabel darkred" data-i18n="rank">rank</span>
               <select name="attr_survival_rank" title="@{survival_rank}">
-                <option data-i18n="untrained" value="0" selected="">untrained</option>
+                <option data-i18n='untrained' value='-2' selected="">untrained</option>
                 <option data-i18n="trained" value="2">trained</option>
                 <option data-i18n="expert" value="4">expert</option>
                 <option data-i18n="master" value="6">master</option>
@@ -2815,7 +2815,7 @@
             </div>
             <label data-i18n-title="thievery_rank_select" title="thievery rank select"><span class="sublabel darkred" data-i18n="rank">rank</span>
               <select name="attr_thievery_rank" title="@{thievery_rank}">
-                <option data-i18n="untrained" value="0" selected="">untrained</option>
+                <option data-i18n='untrained' value='-2' selected="">untrained</option>
                 <option data-i18n="trained" value="2">trained</option>
                 <option data-i18n="expert" value="4">expert</option>
                 <option data-i18n="master" value="6">master</option>
@@ -2869,7 +2869,7 @@
               </div>
               <label data-i18n-title="lore_rank_select" title="lore rank select"><span class="sublabel darkred" data-i18n="rank">rank</span>
                 <select name="attr_lore_rank" title="@{lore_rank}">
-                  <option data-i18n="untrained" value="0" selected="">untrained</option>
+                  <option data-i18n='untrained' value='-2' selected="">untrained</option>
                   <option data-i18n="trained" value="2">trained</option>
                   <option data-i18n="expert" value="4">expert</option>
                   <option data-i18n="master" value="6">master</option>
@@ -3073,7 +3073,7 @@
         <label class='sublabel' data-i18n-title='percetion_rank' title='perception rank'>
             <span class='sublabel darkred' data-i18n='rank'>rank</span>
             <select name='attr_perception_rank' title='@{perception_rank}'>
-                <option data-i18n='untrained' value='0' selected>untrained</option>
+                <option data-i18n='untrained' value='-2' selected>untrained</option>
                 <option data-i18n='trained' value='2'>trained</option>
                 <option data-i18n='expert' value='4'>expert</option>
                 <option data-i18n='master' value='6'>master</option>
@@ -3688,7 +3688,7 @@
             </div>
             <label class="sublabel" data-i18n-title="spell_attack_rank" title="spell attack rank"><span class="sublabel darkred" data-i18n="rank">rank</span>
               <select name="attr_spell_attack_rank" title="@{spell_attack_rank}">
-                <option data-i18n="untrained" value="0" selected="">untrained</option>
+                <option data-i18n='untrained' value='-2' selected="">untrained</option>
                 <option data-i18n="trained" value="2">trained</option>
                 <option data-i18n="expert" value="4">expert</option>
                 <option data-i18n="master" value="6">master</option>
@@ -3734,7 +3734,7 @@
             </div>
             <label class="sublabel" data-i18n-title="spell_dc_rank" title="spell dc rank"><span class="sublabel darkred" data-i18n="rank">rank</span>
               <select name="attr_spell_dc_rank" title="@{spell_dc_rank}">
-                <option data-i18n="untrained" value="0" selected="">untrained</option>
+                <option data-i18n='untrained' value='-2' selected="">untrained</option>
                 <option data-i18n="trained" value="2">trained</option>
                 <option data-i18n="expert" value="4">expert</option>
                 <option data-i18n="master" value="6">master</option>
@@ -3755,7 +3755,7 @@
           <div class="grid magic-tradition-grid">
             <label class="sublabel" data-i18n-title="magical_tradition_arcane" title="magical tradition arcane"><span class="sublabel darkred darkred-half-left" data-i18n="arcane">arcane</span><span class="sublabel darkred darkred-half-right" name="attr_magic_tradition_arcane_proficiency" title="@{magic_tradition_arcane_proficiency}"></span>
               <select class="simple" name="attr_magic_tradition_arcane_rank" title="@{magic_tradition_arcane_rank}">
-                <option data-i18n="untrained" value="0" selected="">untrained</option>
+                <option data-i18n='untrained' value='-2' selected="">untrained</option>
                 <option data-i18n="trained" value="2">trained</option>
                 <option data-i18n="expert" value="4">expert</option>
                 <option data-i18n="master" value="6">master</option>
@@ -3764,7 +3764,7 @@
             </label>
             <label class="sublabel" data-i18n-title="magical_tradition_primal" title="magical tradition primal"><span class="sublabel darkred darkred-half-left" data-i18n="primal">primal</span><span class="sublabel darkred darkred-half-right" name="attr_magic_tradition_primal_proficiency" title="@{magic_tradition_primal_proficiency}"></span>
               <select class="simple" name="attr_magic_tradition_primal_rank" title="@{magic_tradition_primal_rank}">
-                <option data-i18n="untrained" value="0" selected="">untrained</option>
+                <option data-i18n='untrained' value='-2' selected="">untrained</option>
                 <option data-i18n="trained" value="2">trained</option>
                 <option data-i18n="expert" value="4">expert</option>
                 <option data-i18n="master" value="6">master</option>
@@ -3773,7 +3773,7 @@
             </label>
             <label class="sublabel" data-i18n-title="magical_tradition_occult" title="magical tradition occult"><span class="sublabel darkred darkred-half-left" data-i18n="occult">occult</span><span class="sublabel darkred darkred-half-right" name="attr_magic_tradition_occult_proficiency" title="@{magic_tradition_occult_proficiency}"></span>
               <select class="simple" name="attr_magic_tradition_occult_rank" title="@{magic_tradition_occult_rank}">
-                <option data-i18n="untrained" value="0" selected="">untrained</option>
+                <option data-i18n='untrained' value='-2' selected="">untrained</option>
                 <option data-i18n="trained" value="2">trained</option>
                 <option data-i18n="expert" value="4">expert</option>
                 <option data-i18n="master" value="6">master</option>
@@ -3782,7 +3782,7 @@
             </label>
             <label class="sublabel" data-i18n-title="magical_tradition_divine" title="magical tradition divine"><span class="sublabel darkred darkred-half-left" data-i18n="divine">divine</span><span class="sublabel darkred darkred-half-right" name="attr_magic_tradition_divine_proficiency" title="@{magic_tradition_divine_proficiency}"></span>
               <select class="simple" name="attr_magic_tradition_divine_rank" title="@{magic_tradition_divine_rank}">
-                <option data-i18n="untrained" value="0" selected="">untrained</option>
+                <option data-i18n='untrained' value='-2' selected="">untrained</option>
                 <option data-i18n="trained" value="2">trained</option>
                 <option data-i18n="expert" value="4">expert</option>
                 <option data-i18n="master" value="6">master</option>
@@ -5395,11 +5395,7 @@ var modPf2 = (function () {
     // -- Calculates proficiency according to rank, level and misc bonus
     const calcProficiency = function(rank, level, misc) {
         let trng = (parseInt(rank) || 0);
-        if(trng > 0) {
-            return (trng + (parseInt(level) || 0) + (parseInt(misc) || 0));
-        } else {
-            return (parseInt(misc) || 0);
-        }
+        return (trng + (parseInt(misc) || 0));
     };
     const calcProficiencyDisplay = function(rank) {
         switch(parseInt(rank) || 0) {
